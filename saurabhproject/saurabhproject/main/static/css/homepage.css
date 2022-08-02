@@ -1,0 +1,22 @@
+body {
+    background-image: url('7.jpg');
+}
+
+button {
+    width: 15%;
+    margin-left: 42.5%;
+    margin-right: 25%;
+    height: 40px;
+    background: green;
+    color: white;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+button:hover {
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 20px;
+    background-color: black ;
+    
+}

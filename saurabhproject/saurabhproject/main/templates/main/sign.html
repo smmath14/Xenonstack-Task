@@ -1,0 +1,33 @@
+{% load static %}
+
+<html>
+
+<head>
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="{% static 'css/sign.css' %}" />
+</head>
+
+<body>
+    <div class="sign-content">
+       <img src="{% static 'images/avtaar.png' %}" class="avtaar1">
+
+       <h1>Sign Up </h1>
+
+       <form method="POST">
+            <p>Username</p>
+            <input type="text" name="username" placeholder="Enter Username" required>
+            <p>Password</p>
+            <input type="password" name="password1" placeholder="Enter Passwrod" required>
+            <p>Password Confirmation</p>
+            <input type="password" name="password2" placeholder="Enter Passwrod" required>
+           <input type="submit" name="" value="Sign UP">
+        </form>
+    
+    
+    </div>
+        
+    
+
+</body>
+
+</html>
